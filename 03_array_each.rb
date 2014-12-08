@@ -15,3 +15,7 @@ person = {
 #   "mexican food"
 #
 #------- your code below here ---------
+foods = person[:favorite_foods]
+foods.each do |value|
+p value
+end
